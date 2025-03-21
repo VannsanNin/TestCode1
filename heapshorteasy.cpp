@@ -18,7 +18,7 @@ void maxHeapify(int arr[], int heapSize, int i)
     int largest = i;
 
     if (l < heapSize && arr[l] > arr[i])
-    {
+    {w
         largest = l;
     }
     if (r < heapSize && arr[r] > arr[largest])
